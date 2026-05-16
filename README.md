@@ -46,15 +46,7 @@ python vulnfetch.py --api-key YOUR_NVD_KEY
 
 ## Sample Output
 
-```
-                 VulnFetch — HIGH/CRITICAL CVEs (last 7 days)
-┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ CVE ID          ┃ CVSS Score ┃ Severity ┃ Description (max 60 chars)           ┃
-┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ CVE-2026-XXXXX  │        9.8 │ CRITICAL │ Remote code execution in ...         │
-│ CVE-2026-XXXXX  │        8.1 │ HIGH     │ Authentication bypass allowing ...   │
-└─────────────────┴────────────┴──────────┴──────────────────────────────────────┘
-```
+![VulnFetch sample output](assets/screenshot.png)
 
 ## Exit Codes
 
