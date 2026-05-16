@@ -16,7 +16,7 @@ A small CLI that fetches recent **HIGH** and **CRITICAL** CVEs from the [NVD API
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/vulnfetch.git
+git clone https://github.com/pashasec/vulnfetch.git
 cd vulnfetch
 pip install -r requirements.txt
 ```
